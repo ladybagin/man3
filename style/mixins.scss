@@ -1,0 +1,86 @@
+@mixin porten {
+    font-family: 'Post No Bills Jaffna', sans-serif;
+    font-style: normal;
+font-weight: bold;
+color: white;
+}
+
+@mixin fle {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+
+}
+
+@mixin podmenu {
+    font-size: 14px;
+line-height: 18px;
+text-transform: uppercase;
+margin: 31px 20px 31px 20px;
+}
+
+@mixin hre1 {
+    color: white;
+    text-decoration: none;
+}
+
+@mixin sanPT {
+    font-family: $PtSans;
+    font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 48px;
+/* identical to box height */
+
+text-align: center;
+text-transform: uppercase;
+color: $wc;
+}
+
+@mixin seasonF {
+    font-family: $Playfair;
+font-style: normal;
+font-weight: bold;
+line-height: 48px;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+@mixin centerblock($p1, $p2,$p3, $p4, $b1, $b2,$b3,$w, $h, $m1,$m2) {
+    padding: $p1 $p2 $p3 $p4;
+    border: $b1 $b2 $b3;
+    width: $w;
+height: $h;
+margin: $m1 $m2;
+}
+
+@mixin cloki {
+    @include fle;
+    .cloki-item {
+
+
+       .cloki-item1 {
+           @include seasonF;
+           font-size: 15px;
+           margin-bottom: -25px;
+       }
+
+       .cloki-item2 {
+    
+        @include seasonF;
+        font-size: 12px;
+    }
+    }
+}
+
+@mixin peredelat {
+    @include seasonF;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: left;
+    margin-left: 150px;
+    margin-top: 70px;
+}
+
