@@ -226,7 +226,7 @@ body .container .season .season2 {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
-  background-image: url("D:/man shop/man/images/mantree.png");
+  background-image: url("https://github.com/ladybagin/man3/blob/main/images/mantree.png?raw=true");
   background-size: 100% 100%;
 }
 
@@ -270,7 +270,7 @@ body .container .collection {
 }
 
 body .container .collection .collection1 {
-  background-image: url("D:/man shop/man/images/blackwhite.png");
+  background-image: url("https://github.com/ladybagin/man3/blob/main/images/blackwhite.png?raw=true");
   background-size: 100% 100%;
   width: 40%;
   height: auto;
@@ -430,7 +430,7 @@ body .container .brands .allbrands {
 }
 
 body .container .footer1 {
-  background-image: url("D:/man shop/man/images/man.png");
+  background-image: url("https://github.com/ladybagin/man3/blob/main/images/man.png?raw=true");
   background-size: 100% 100%;
   display: -webkit-box;
   display: -ms-flexbox;
