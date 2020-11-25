@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img id="brandimage" src="images/cloki.png" onmouseover="zoom(this.id)" onmouseout="notzoom(this.id)">
+
+    <script>
+    function zoom(imgName) {
+        let img=document.getElementById(imgName);
+        img.style['width'] ="220px";
+        img.style['cursor'] ="pointer";
+        img.style['height'] ="auto";
+    }
+
+    function notzoom(imgName) {
+        let img=document.getElementById(imgName);
+        img.style['width'] ="215px";
+        img.style['height'] ="auto";
+    }
+    </script>
+</body>
+</html>
